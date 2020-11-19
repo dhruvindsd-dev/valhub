@@ -1,0 +1,30 @@
+video {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.button {
+  transition: 0.5s;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  border-radius: 5px;
+  border: 2px solid black !important;
+}
+
+img {
+  object-fit: contain;
+}
+
+.vt {
+  font-family: "VT323", monospace;
+}
+.major {
+  font-family: "Major Mono Display", monospace;
+}
